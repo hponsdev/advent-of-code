@@ -1,0 +1,14 @@
+C:\PRIV\Projects\advent\AdventOfCode2025\AdventOfCode2025\bin\Debug\net9.0\AdventOfCode2025.exe
+C:\PRIV\Projects\advent\AdventOfCode2025\AdventOfCode2025\bin\Debug\net9.0\AdventOfCode2025.deps.json
+C:\PRIV\Projects\advent\AdventOfCode2025\AdventOfCode2025\bin\Debug\net9.0\AdventOfCode2025.runtimeconfig.json
+C:\PRIV\Projects\advent\AdventOfCode2025\AdventOfCode2025\bin\Debug\net9.0\AdventOfCode2025.dll
+C:\PRIV\Projects\advent\AdventOfCode2025\AdventOfCode2025\bin\Debug\net9.0\AdventOfCode2025.pdb
+C:\PRIV\Projects\advent\AdventOfCode2025\AdventOfCode2025\obj\Debug\net9.0\AdventOfCode2025.GeneratedMSBuildEditorConfig.editorconfig
+C:\PRIV\Projects\advent\AdventOfCode2025\AdventOfCode2025\obj\Debug\net9.0\AdventOfCode2025.AssemblyInfoInputs.cache
+C:\PRIV\Projects\advent\AdventOfCode2025\AdventOfCode2025\obj\Debug\net9.0\AdventOfCode2025.AssemblyInfo.cs
+C:\PRIV\Projects\advent\AdventOfCode2025\AdventOfCode2025\obj\Debug\net9.0\AdventOfCode2025.csproj.CoreCompileInputs.cache
+C:\PRIV\Projects\advent\AdventOfCode2025\AdventOfCode2025\obj\Debug\net9.0\AdventOfCode2025.dll
+C:\PRIV\Projects\advent\AdventOfCode2025\AdventOfCode2025\obj\Debug\net9.0\refint\AdventOfCode2025.dll
+C:\PRIV\Projects\advent\AdventOfCode2025\AdventOfCode2025\obj\Debug\net9.0\AdventOfCode2025.pdb
+C:\PRIV\Projects\advent\AdventOfCode2025\AdventOfCode2025\obj\Debug\net9.0\AdventOfCode2025.genruntimeconfig.cache
+C:\PRIV\Projects\advent\AdventOfCode2025\AdventOfCode2025\obj\Debug\net9.0\ref\AdventOfCode2025.dll
