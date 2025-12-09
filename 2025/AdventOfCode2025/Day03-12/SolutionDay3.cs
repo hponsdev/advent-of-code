@@ -5,7 +5,7 @@ namespace AdventOfCode2025.Day03_12
     internal class SolutionDay3
     {
         private string[] _input;
-        private const string INPUT_FILE_PATH = @"C:\PRIV\Projects\advent\AdventOfCode2025\AdventOfCode2025\Day03-12\adventofcode-input3-a.txt";
+        private const string INPUT_FILE_PATH = @"D:\Hugo\source\advent-of-code\2025\AdventOfCode2025\Day03-12\adventofcode-input3-a.txt";
 
         internal SolutionDay3()
         {
@@ -29,7 +29,7 @@ namespace AdventOfCode2025.Day03_12
 
         internal void SolveSecondExercise()
         {
-            int result = 0;
+            long result = 0;
 
             foreach (string line in _input)
             {
@@ -65,15 +65,18 @@ namespace AdventOfCode2025.Day03_12
             return jolt1 * 10 + jolt2;
         }
 
-        private int GetBankJoltage2(string line)
+        private long GetBankJoltage2(string line)
         {
             int joltPrevious = 0;
             int joltTemp = 0;
-            int joltPreviousIndex = 0;
+            int joltPreviousIndex = - 1;
+
+            long result = 0;
 
             for (int time = 0; time < 12; time++)
             {
-                for (int i = joltPreviousIndex; i < line.Length - 11 + time; i++)
+                int maxIndex = line.Length - 11 + time;
+                for (int i = joltPreviousIndex + 1; i < maxIndex; i++)
                 {
                     int jolt = (int)Char.GetNumericValue(line[i]);
                     if (jolt > joltTemp)
@@ -82,7 +85,11 @@ namespace AdventOfCode2025.Day03_12
                         joltPreviousIndex = i;
                     }
                 }
+
+                result = result * 10 + joltTemp;
+                joltTemp = 0;
             }
+
             return result;
         }
     }
