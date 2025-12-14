@@ -1,4 +1,5 @@
 ﻿using AdventOfCode2025.Day06_12;
+using AdventOfCode2025.Day07_12;
 
-var solution6 = new SolutionDay6();
-solution6.SolveFirstExercise();
+var solution7 = new SolutionDay7();
+solution7.SolveSecondExercise();
