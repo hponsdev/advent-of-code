@@ -44,7 +44,6 @@
                 result += resultTemp;
             }
 
-
             Console.WriteLine(result);
         }
     }
